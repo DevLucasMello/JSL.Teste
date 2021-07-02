@@ -1,0 +1,17 @@
+C:\dev\JSL\src\JSL.Viagem.Data\bin\Debug\netcoreapp3.1\JSL.Viagem.Data.deps.json
+C:\dev\JSL\src\JSL.Viagem.Data\bin\Debug\netcoreapp3.1\JSL.Viagem.Data.dll
+C:\dev\JSL\src\JSL.Viagem.Data\bin\Debug\netcoreapp3.1\JSL.Viagem.Data.pdb
+C:\dev\JSL\src\JSL.Viagem.Data\obj\Debug\netcoreapp3.1\JSL.Viagem.Data.csprojAssemblyReference.cache
+C:\dev\JSL\src\JSL.Viagem.Data\obj\Debug\netcoreapp3.1\JSL.Viagem.Data.AssemblyInfoInputs.cache
+C:\dev\JSL\src\JSL.Viagem.Data\obj\Debug\netcoreapp3.1\JSL.Viagem.Data.AssemblyInfo.cs
+C:\dev\JSL\src\JSL.Viagem.Data\obj\Debug\netcoreapp3.1\JSL.Viagem.Data.csproj.CoreCompileInputs.cache
+C:\dev\JSL\src\JSL.Viagem.Data\obj\Debug\netcoreapp3.1\JSL.Viagem.Data.dll
+C:\dev\JSL\src\JSL.Viagem.Data\obj\Debug\netcoreapp3.1\JSL.Viagem.Data.pdb
+C:\dev\JSL\src\JSL.Viagem.Data\bin\Debug\netcoreapp3.1\JSL.Viagem.Data.runtimeconfig.json
+C:\dev\JSL\src\JSL.Viagem.Data\bin\Debug\netcoreapp3.1\JSL.Viagem.Data.runtimeconfig.dev.json
+C:\dev\JSL\src\JSL.Viagem.Data\bin\Debug\netcoreapp3.1\JSL.Core.dll
+C:\dev\JSL\src\JSL.Viagem.Data\bin\Debug\netcoreapp3.1\JSL.Viagem.Domain.dll
+C:\dev\JSL\src\JSL.Viagem.Data\bin\Debug\netcoreapp3.1\JSL.Core.pdb
+C:\dev\JSL\src\JSL.Viagem.Data\bin\Debug\netcoreapp3.1\JSL.Viagem.Domain.pdb
+C:\dev\JSL\src\JSL.Viagem.Data\obj\Debug\netcoreapp3.1\JSL.Viagem.Data.csproj.CopyComplete
+C:\dev\JSL\src\JSL.Viagem.Data\obj\Debug\netcoreapp3.1\JSL.Viagem.Data.genruntimeconfig.cache

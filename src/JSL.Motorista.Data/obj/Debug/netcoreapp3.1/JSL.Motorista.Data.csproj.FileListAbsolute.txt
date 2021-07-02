@@ -1,0 +1,17 @@
+C:\dev\JSL\src\JSL.Motorista.Data\bin\Debug\netcoreapp3.1\JSL.Motorista.Data.deps.json
+C:\dev\JSL\src\JSL.Motorista.Data\bin\Debug\netcoreapp3.1\JSL.Motorista.Data.dll
+C:\dev\JSL\src\JSL.Motorista.Data\bin\Debug\netcoreapp3.1\JSL.Motorista.Data.pdb
+C:\dev\JSL\src\JSL.Motorista.Data\obj\Debug\netcoreapp3.1\JSL.Motorista.Data.csprojAssemblyReference.cache
+C:\dev\JSL\src\JSL.Motorista.Data\obj\Debug\netcoreapp3.1\JSL.Motorista.Data.AssemblyInfoInputs.cache
+C:\dev\JSL\src\JSL.Motorista.Data\obj\Debug\netcoreapp3.1\JSL.Motorista.Data.AssemblyInfo.cs
+C:\dev\JSL\src\JSL.Motorista.Data\obj\Debug\netcoreapp3.1\JSL.Motorista.Data.csproj.CoreCompileInputs.cache
+C:\dev\JSL\src\JSL.Motorista.Data\obj\Debug\netcoreapp3.1\JSL.Motorista.Data.dll
+C:\dev\JSL\src\JSL.Motorista.Data\obj\Debug\netcoreapp3.1\JSL.Motorista.Data.pdb
+C:\dev\JSL\src\JSL.Motorista.Data\bin\Debug\netcoreapp3.1\JSL.Motorista.Data.runtimeconfig.json
+C:\dev\JSL\src\JSL.Motorista.Data\bin\Debug\netcoreapp3.1\JSL.Motorista.Data.runtimeconfig.dev.json
+C:\dev\JSL\src\JSL.Motorista.Data\bin\Debug\netcoreapp3.1\JSL.Core.dll
+C:\dev\JSL\src\JSL.Motorista.Data\bin\Debug\netcoreapp3.1\JSL.Motorista.Domain.dll
+C:\dev\JSL\src\JSL.Motorista.Data\bin\Debug\netcoreapp3.1\JSL.Core.pdb
+C:\dev\JSL\src\JSL.Motorista.Data\bin\Debug\netcoreapp3.1\JSL.Motorista.Domain.pdb
+C:\dev\JSL\src\JSL.Motorista.Data\obj\Debug\netcoreapp3.1\JSL.Motorista.Data.csproj.CopyComplete
+C:\dev\JSL\src\JSL.Motorista.Data\obj\Debug\netcoreapp3.1\JSL.Motorista.Data.genruntimeconfig.cache

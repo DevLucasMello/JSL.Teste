@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "CZPHQtNLuHWLIblEXrMfawIIVi3B1g66qV5tz71AUcOpTovTWPhvMYR0qNJGoyKnAAZbeYo8EcFp3hp4hOEOsQ==",
+  "success": true,
+  "projectFilePath": "C:\\dev\\JSL\\src\\JSL.Motorista.Domain\\JSL.Motorista.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lucas\\.nuget\\packages\\fluentvalidation\\10.2.3\\fluentvalidation.10.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

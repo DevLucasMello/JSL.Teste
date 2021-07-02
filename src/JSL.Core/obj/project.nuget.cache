@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "cHe2xpICIvCgf6/XeXT0i3vCZ/CpokqBVcQDOuY0HvF81POYQKYS7h2dRESQcrqbpTk2DVC8VX2rWCLdOd6agg==",
+  "success": true,
+  "projectFilePath": "C:\\dev\\JSL\\src\\JSL.Core\\JSL.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lucas\\.nuget\\packages\\fluentvalidation\\10.2.3\\fluentvalidation.10.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
