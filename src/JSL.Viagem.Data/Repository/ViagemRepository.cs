@@ -3,6 +3,7 @@ using JSL.Viagem.Domain;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace JSL.Viagem.Data.Repository
@@ -21,6 +22,11 @@ namespace JSL.Viagem.Data.Repository
         public async Task<Domain.Viagem> ObterPorId(Guid id)
         {
             return await _context.Viagens.AsNoTracking().FirstOrDefaultAsync(c => c.Id == id);
+        }
+
+        public async Task<IEnumerable<Domain.Viagem>> ObterViagensPorMotorista(Guid id)
+        {
+            return await _context.Viagens.AsNoTracking().Where(v => v.MotoristaId == id).ToListAsync();
         }
 
         public async Task<IEnumerable<Domain.Viagem>> ObterListaDeViagens()
@@ -46,6 +52,6 @@ namespace JSL.Viagem.Data.Repository
         public void Dispose()
         {
             _context.Dispose();
-        }
+        }        
     }
 }

@@ -31,7 +31,7 @@ namespace JSL.WebApp.API.Controllers
         {
             var viagem = await _viagemAppService.ObterPorId(id);
 
-            if (viagem == null) return NotFound();
+            if (viagem == null) return NotFound("Não foi possível localizar a viagem");
 
             return viagem;
         }
@@ -40,7 +40,7 @@ namespace JSL.WebApp.API.Controllers
         [Route("adicionarViagem")]
         public async Task<ActionResult<ViagemViewModel>> Post(ViagemViewModel viagemViewModel)
         {
-            if (!ModelState.IsValid) return BadRequest();
+            if (!ModelState.IsValid) return BadRequest("O formulário possui dados inválidos");
 
             await _viagemAppService.AdicionarViagem(viagemViewModel);
 
@@ -51,11 +51,11 @@ namespace JSL.WebApp.API.Controllers
         [Route("atualizarViagem")]
         public async Task<ActionResult<ViagemViewModel>> Put(ViagemViewModel viagemViewModel)
         {
-            if (!ModelState.IsValid) return BadRequest();
+            if (!ModelState.IsValid) return BadRequest("O formulário possui dados inválidos");
 
             var viagem = await _viagemAppService.ObterPorId(viagemViewModel.Id);
 
-            if (viagem == null) return BadRequest();
+            if (viagem == null) return BadRequest("Não foi possível localizar a viagem");
 
             await _viagemAppService.AtualizarViagem(viagemViewModel);
 
@@ -68,7 +68,7 @@ namespace JSL.WebApp.API.Controllers
         {
             var viagem = await _viagemAppService.ObterPorId(id);
 
-            if (viagem == null) return NotFound();
+            if (viagem == null) return NotFound("Não foi possível localizar a viagem");
 
             await _viagemAppService.ExcluirViagem(viagem);
 

@@ -9,6 +9,7 @@ namespace JSL.Viagem.Application.Services
     public interface IViagemAppService : IDisposable
     {
         Task<ViagemViewModel> ObterPorId(Guid id);
+        Task<IEnumerable<ViagemViewModel>> ObterViagensPorMotorista(Guid id);
         Task<IEnumerable<ViagemViewModel>> ObterListaDeViagens();
         Task AdicionarViagem(ViagemViewModel viagemViewModel);
         Task AtualizarViagem(ViagemViewModel viagemViewModel);

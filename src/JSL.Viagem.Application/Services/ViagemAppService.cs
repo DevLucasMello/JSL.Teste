@@ -23,6 +23,11 @@ namespace JSL.Viagem.Application.Services
             return _mapper.Map<ViagemViewModel>(await _viagemRepository.ObterPorId(id));
         }
 
+        public async Task<IEnumerable<ViagemViewModel>> ObterViagensPorMotorista(Guid id)
+        {
+            return _mapper.Map<IEnumerable<ViagemViewModel>>(await _viagemRepository.ObterViagensPorMotorista(id));
+        }
+
         public async Task<IEnumerable<ViagemViewModel>> ObterListaDeViagens()
         {
             return _mapper.Map<IEnumerable<ViagemViewModel>>(await _viagemRepository.ObterListaDeViagens());

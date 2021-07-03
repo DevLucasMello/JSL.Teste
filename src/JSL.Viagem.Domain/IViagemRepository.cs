@@ -9,6 +9,7 @@ namespace JSL.Viagem.Domain
     {
         Task<Viagem> ObterPorId(Guid id);
         Task<IEnumerable<Viagem>> ObterListaDeViagens();
+        Task<IEnumerable<Viagem>> ObterViagensPorMotorista(Guid id);
         void AdicionarViagem(Viagem viagem);
         void AtualizarViagem(Viagem viagem);
         void ExcluirViagem(Viagem viagem);
