@@ -12,7 +12,7 @@ namespace JSL.Viagem.Data.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    MotoristaId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    MotoristaId = table.Column<string>(type: "varchar(100)", nullable: false),
                     DataHoraViajem = table.Column<DateTime>(type: "datetime", nullable: false),
                     LocalEntrega = table.Column<string>(type: "varchar(50)", nullable: false),
                     LocalSaida = table.Column<string>(type: "varchar(50)", nullable: false),

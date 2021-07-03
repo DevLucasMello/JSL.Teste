@@ -66,14 +66,12 @@ namespace JSL.Motorista.Data.Migrations
                                 .HasColumnType("uniqueidentifier");
 
                             b1.Property<string>("Bairro")
-                                .ValueGeneratedOnUpdateSometimes()
                                 .HasColumnType("varchar(100)")
-                                .HasColumnName("Descricao");
+                                .HasColumnName("Bairro");
 
                             b1.Property<string>("CEP")
-                                .ValueGeneratedOnUpdateSometimes()
                                 .HasColumnType("varchar(100)")
-                                .HasColumnName("Descricao");
+                                .HasColumnName("CEP");
 
                             b1.Property<string>("Descricao")
                                 .HasColumnType("varchar(100)")
@@ -81,19 +79,19 @@ namespace JSL.Motorista.Data.Migrations
 
                             b1.Property<string>("Estado")
                                 .HasColumnType("varchar(100)")
-                                .HasColumnName("Descricao");
+                                .HasColumnName("Estado");
 
                             b1.Property<string>("Logradouro")
                                 .HasColumnType("varchar(100)")
-                                .HasColumnName("Descricao");
+                                .HasColumnName("Logradouro");
 
                             b1.Property<string>("Municipio")
                                 .HasColumnType("varchar(100)")
-                                .HasColumnName("Descricao");
+                                .HasColumnName("Municipio");
 
                             b1.Property<string>("Numero")
                                 .HasColumnType("varchar(100)")
-                                .HasColumnName("Descricao");
+                                .HasColumnName("Numero");
 
                             b1.HasKey("MotoristaId");
 
@@ -109,14 +107,12 @@ namespace JSL.Motorista.Data.Migrations
                                 .HasColumnType("uniqueidentifier");
 
                             b1.Property<string>("PrimeiroNome")
-                                .ValueGeneratedOnUpdateSometimes()
                                 .HasColumnType("varchar(50)")
                                 .HasColumnName("PrimeiroNome");
 
                             b1.Property<string>("UltimoNome")
-                                .ValueGeneratedOnUpdateSometimes()
                                 .HasColumnType("varchar(50)")
-                                .HasColumnName("PrimeiroNome");
+                                .HasColumnName("UltimoNome");
 
                             b1.HasKey("MotoristaId");
 

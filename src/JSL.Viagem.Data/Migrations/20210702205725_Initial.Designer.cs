@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace JSL.Viagem.Data.Migrations
 {
     [DbContext(typeof(ViagemContext))]
-    [Migration("20210702012608_Initial")]
+    [Migration("20210702205725_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -41,8 +41,9 @@ namespace JSL.Viagem.Data.Migrations
                         .IsRequired()
                         .HasColumnType("varchar(50)");
 
-                    b.Property<Guid>("MotoristaId")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<string>("MotoristaId")
+                        .IsRequired()
+                        .HasColumnType("varchar(100)");
 
                     b.HasKey("Id");
 

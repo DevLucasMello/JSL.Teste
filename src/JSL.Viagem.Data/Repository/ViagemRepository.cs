@@ -20,7 +20,7 @@ namespace JSL.Viagem.Data.Repository
 
         public async Task<Domain.Viagem> ObterPorId(Guid id)
         {
-            return await _context.Viagens.FindAsync(id);
+            return await _context.Viagens.AsNoTracking().FirstOrDefaultAsync(c => c.Id == id);
         }
 
         public async Task<IEnumerable<Domain.Viagem>> ObterListaDeViagens()
@@ -38,10 +38,8 @@ namespace JSL.Viagem.Data.Repository
             _context.Viagens.Update(viagem);
         }        
 
-        public async void ExcluirViagem(Guid viagemId)
+        public void ExcluirViagem(Domain.Viagem viagem)
         {
-            var viagem = await _context.Viagens.FirstOrDefaultAsync(v => v.Id == viagemId);            
-
             _context.Viagens.Remove(viagem);
         }              
 

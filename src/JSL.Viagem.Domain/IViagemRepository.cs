@@ -11,6 +11,6 @@ namespace JSL.Viagem.Domain
         Task<IEnumerable<Viagem>> ObterListaDeViagens();
         void AdicionarViagem(Viagem viagem);
         void AtualizarViagem(Viagem viagem);
-        void ExcluirViagem(Guid viagemId);
+        void ExcluirViagem(Viagem viagem);
     }
 }

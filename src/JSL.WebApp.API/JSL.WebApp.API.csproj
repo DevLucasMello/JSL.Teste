@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.7" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.7">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -19,8 +20,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\JSL.Core\JSL.Core.csproj" />
+    <ProjectReference Include="..\JSL.Motorista.Application\JSL.Motorista.Application.csproj" />
     <ProjectReference Include="..\JSL.Motorista.Data\JSL.Motorista.Data.csproj" />
     <ProjectReference Include="..\JSL.Motorista.Domain\JSL.Motorista.Domain.csproj" />
+    <ProjectReference Include="..\JSL.Viagem.Application\JSL.Viagem.Application.csproj" />
     <ProjectReference Include="..\JSL.Viagem.Data\JSL.Viagem.Data.csproj" />
     <ProjectReference Include="..\JSL.Viagem.Domain\JSL.Viagem.Domain.csproj" />
   </ItemGroup>

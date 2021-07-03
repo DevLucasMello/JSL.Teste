@@ -11,6 +11,6 @@ namespace JSL.Motorista.Domain
         Task<IEnumerable<Motorista>> ObterListaDeMotoristas();        
         void AdicionarMotorista(Motorista motorista);
         void AtualizarMotorista(Motorista motorista);
-        void ExcluirMotorista(Guid motoristaId);
+        void ExcluirMotorista(Motorista motorista);
     }
 }

@@ -13,11 +13,18 @@ namespace JSL.Motorista.Data.Migrations
                 {
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     PrimeiroNome = table.Column<string>(type: "varchar(50)", nullable: true),
+                    UltimoNome = table.Column<string>(type: "varchar(50)", nullable: true),
                     Caminhao_Marca = table.Column<string>(type: "varchar(50)", nullable: true),
                     Caminhao_Modelo = table.Column<string>(type: "varchar(50)", nullable: true),
                     Caminhao_Placa = table.Column<string>(type: "varchar(50)", nullable: true),
                     Caminhao_Eixos = table.Column<int>(type: "int", nullable: true),
-                    Descricao = table.Column<string>(type: "varchar(100)", nullable: true)
+                    Descricao = table.Column<string>(type: "varchar(100)", nullable: true),
+                    Logradouro = table.Column<string>(type: "varchar(100)", nullable: true),
+                    Numero = table.Column<string>(type: "varchar(100)", nullable: true),
+                    Bairro = table.Column<string>(type: "varchar(100)", nullable: true),
+                    Municipio = table.Column<string>(type: "varchar(100)", nullable: true),
+                    Estado = table.Column<string>(type: "varchar(100)", nullable: true),
+                    CEP = table.Column<string>(type: "varchar(100)", nullable: true)
                 },
                 constraints: table =>
                 {

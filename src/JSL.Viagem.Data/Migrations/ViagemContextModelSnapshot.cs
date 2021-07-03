@@ -39,8 +39,9 @@ namespace JSL.Viagem.Data.Migrations
                         .IsRequired()
                         .HasColumnType("varchar(50)");
 
-                    b.Property<Guid>("MotoristaId")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<string>("MotoristaId")
+                        .IsRequired()
+                        .HasColumnType("varchar(100)");
 
                     b.HasKey("Id");
 

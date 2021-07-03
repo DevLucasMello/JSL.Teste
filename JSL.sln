@@ -13,17 +13,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Motorista", "Motorista", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Viagem", "Viagem", "{E4639E7B-0E69-474D-996E-3F17EC41145C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSL.Core", "src\JSL.Core\JSL.Core.csproj", "{415C675A-95ED-4E6C-B255-CE8BE708135D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSL.Core", "src\JSL.Core\JSL.Core.csproj", "{415C675A-95ED-4E6C-B255-CE8BE708135D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSL.Motorista.Domain", "src\JSL.Motorista.Domain\JSL.Motorista.Domain.csproj", "{FDA12B59-2500-4CDE-A967-B017601B752D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSL.Motorista.Domain", "src\JSL.Motorista.Domain\JSL.Motorista.Domain.csproj", "{FDA12B59-2500-4CDE-A967-B017601B752D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSL.Motorista.Data", "src\JSL.Motorista.Data\JSL.Motorista.Data.csproj", "{A83E3F8A-A2AA-43BA-9703-59A2918031B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSL.Motorista.Data", "src\JSL.Motorista.Data\JSL.Motorista.Data.csproj", "{A83E3F8A-A2AA-43BA-9703-59A2918031B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSL.Viagem.Data", "src\JSL.Viagem.Data\JSL.Viagem.Data.csproj", "{A0BBAF88-84AC-45EE-A592-C75F34607DE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSL.Viagem.Data", "src\JSL.Viagem.Data\JSL.Viagem.Data.csproj", "{A0BBAF88-84AC-45EE-A592-C75F34607DE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSL.Viagem.Domain", "src\JSL.Viagem.Domain\JSL.Viagem.Domain.csproj", "{4EC0260B-3147-4216-8D76-DD12C17AC052}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSL.Viagem.Domain", "src\JSL.Viagem.Domain\JSL.Viagem.Domain.csproj", "{4EC0260B-3147-4216-8D76-DD12C17AC052}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSL.WebApp.API", "src\JSL.WebApp.API\JSL.WebApp.API.csproj", "{F74E29FF-7DF5-4240-A0F5-6EEBDF496C24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSL.WebApp.API", "src\JSL.WebApp.API\JSL.WebApp.API.csproj", "{F74E29FF-7DF5-4240-A0F5-6EEBDF496C24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSL.Motorista.Application", "src\JSL.Motorista.Application\JSL.Motorista.Application.csproj", "{D5EE5BA1-0E41-42FA-A1C2-8D75CD0445DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSL.Viagem.Application", "src\JSL.Viagem.Application\JSL.Viagem.Application.csproj", "{B664C564-8306-4529-8613-A84451E329A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +59,14 @@ Global
 		{F74E29FF-7DF5-4240-A0F5-6EEBDF496C24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F74E29FF-7DF5-4240-A0F5-6EEBDF496C24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F74E29FF-7DF5-4240-A0F5-6EEBDF496C24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5EE5BA1-0E41-42FA-A1C2-8D75CD0445DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5EE5BA1-0E41-42FA-A1C2-8D75CD0445DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5EE5BA1-0E41-42FA-A1C2-8D75CD0445DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5EE5BA1-0E41-42FA-A1C2-8D75CD0445DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B664C564-8306-4529-8613-A84451E329A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B664C564-8306-4529-8613-A84451E329A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B664C564-8306-4529-8613-A84451E329A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B664C564-8306-4529-8613-A84451E329A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -69,6 +81,8 @@ Global
 		{A0BBAF88-84AC-45EE-A592-C75F34607DE0} = {E4639E7B-0E69-474D-996E-3F17EC41145C}
 		{4EC0260B-3147-4216-8D76-DD12C17AC052} = {E4639E7B-0E69-474D-996E-3F17EC41145C}
 		{F74E29FF-7DF5-4240-A0F5-6EEBDF496C24} = {826FE25B-AEA5-4B94-AA58-A39B4FBECC1E}
+		{D5EE5BA1-0E41-42FA-A1C2-8D75CD0445DB} = {033CAECB-41CF-4470-8261-E2334F7A7A46}
+		{B664C564-8306-4529-8613-A84451E329A3} = {E4639E7B-0E69-474D-996E-3F17EC41145C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A9AC94AD-BFBC-410E-8AE3-6AD2CE32C2F6}

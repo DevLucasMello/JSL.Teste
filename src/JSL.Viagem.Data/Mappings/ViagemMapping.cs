@@ -9,6 +9,10 @@ namespace JSL.Viagem.Data.Mappings
         {
             builder.HasKey(v => v.Id);
 
+            builder.Property(v => v.MotoristaId)
+                .IsRequired()
+                .HasColumnType("varchar(100)");
+
             builder.Property(v => v.DataHoraViajem)
                 .IsRequired()
                 .HasColumnType("datetime");

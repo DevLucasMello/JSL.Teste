@@ -6,3 +6,4 @@ C:\dev\JSL\src\JSL.Core\obj\Debug\netcoreapp3.1\JSL.Core.AssemblyInfo.cs
 C:\dev\JSL\src\JSL.Core\obj\Debug\netcoreapp3.1\JSL.Core.csproj.CoreCompileInputs.cache
 C:\dev\JSL\src\JSL.Core\obj\Debug\netcoreapp3.1\JSL.Core.dll
 C:\dev\JSL\src\JSL.Core\obj\Debug\netcoreapp3.1\JSL.Core.pdb
+C:\dev\JSL\src\JSL.Core\obj\Debug\netcoreapp3.1\JSL.Core.csprojAssemblyReference.cache

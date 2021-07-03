@@ -20,7 +20,7 @@ namespace JSL.Motorista.Data.Repository
 
         public async Task<Domain.Motorista> ObterPorId(Guid id)
         {
-            return await _context.Motoristas.FindAsync(id);
+            return await _context.Motoristas.AsNoTracking().FirstOrDefaultAsync(c => c.Id == id);
         }
 
         public async Task<IEnumerable<Domain.Motorista>> ObterListaDeMotoristas()
@@ -38,10 +38,8 @@ namespace JSL.Motorista.Data.Repository
             _context.Motoristas.Update(motorista);
         }        
 
-        public async void ExcluirMotorista(Guid motoristaId)
-        {
-            var motorista = await _context.Motoristas.FirstOrDefaultAsync(m => m.Id == motoristaId);
-
+        public void ExcluirMotorista(Domain.Motorista motorista)
+        { 
             _context.Motoristas.Remove(motorista);
         } 
 

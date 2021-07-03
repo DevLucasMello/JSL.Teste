@@ -16,7 +16,7 @@ namespace JSL.Motorista.Data.Mappings
                 .HasColumnType("varchar(50)");
 
                 n.Property(m => m.UltimoNome)
-                .HasColumnName("PrimeiroNome")
+                .HasColumnName("UltimoNome")
                 .HasColumnType("varchar(50)");
             });
 
@@ -46,27 +46,27 @@ namespace JSL.Motorista.Data.Mappings
                 .HasColumnType("varchar(100)");
 
                 e.Property(m => m.Logradouro)
-               .HasColumnName("Descricao")
+               .HasColumnName("Logradouro")
                .HasColumnType("varchar(100)");
 
                 e.Property(m => m.Numero)
-               .HasColumnName("Descricao")
+               .HasColumnName("Numero")
                .HasColumnType("varchar(100)");
 
                 e.Property(m => m.Bairro)
-               .HasColumnName("Descricao")
+               .HasColumnName("Bairro")
                .HasColumnType("varchar(100)");
 
                 e.Property(m => m.Municipio)
-               .HasColumnName("Descricao")
+               .HasColumnName("Municipio")
                .HasColumnType("varchar(100)");
 
                 e.Property(m => m.Estado)
-               .HasColumnName("Descricao")
+               .HasColumnName("Estado")
                .HasColumnType("varchar(100)");
 
                 e.Property(m => m.CEP)
-               .HasColumnName("Descricao")
+               .HasColumnName("CEP")
                .HasColumnType("varchar(100)");
             });
 
